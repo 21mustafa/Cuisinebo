@@ -48,7 +48,7 @@ html {
     font-family: "Nunito", sans-serif; }
 
 .logo-description {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #bbb;
   text-align: center;
   font-weight: 300;
@@ -172,3 +172,70 @@ html {
 
 .footer {
   margin-bottom: 6rem; }
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .logo-icon {
+    width: 7rem; }
+  .logo-title {
+    padding-top: 4rem; }
+    .logo-title-text {
+      font-size: 3rem; }
+  .logo-description {
+    font-size: 1rem; }
+  .title {
+    margin-top: 10rem; }
+    .title-text {
+      font-size: 6rem;
+      margin-bottom: 2rem; }
+    .title-subtitle {
+      font-size: 3rem; }
+  .about-us-img-container {
+    display: none; }
+  .menu {
+    grid-template-columns: auto auto; }
+    .menu-item-title {
+      font-size: 3rem;
+      margin: 0.5rem 0; }
+    .menu-item-info {
+      font-size: 1.5rem; }
+    .menu-item-button {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-top: 1rem; }
+  .about-us {
+    height: 50vh; }
+    .about-us-img-container {
+      display: none; } }
+
+@media (max-width: 376px) {
+  .logo-icon {
+    width: 5rem; }
+  .logo-title {
+    padding-top: 4rem; }
+    .logo-title-text {
+      font-size: 3rem; }
+  .logo-description {
+    font-size: 1rem; }
+  .title {
+    margin-top: 10rem; }
+    .title-text {
+      font-size: 5rem;
+      margin-bottom: 1rem; }
+    .title-subtitle {
+      font-size: 2.5rem; }
+  .about-us {
+    height: auto;
+    margin-bottom: 4rem; }
+    .about-us-img-container {
+      display: none; }
+  .menu {
+    display: block; }
+    .menu-item-title {
+      font-size: 3rem;
+      margin: 0.5rem 0; }
+    .menu-item-info {
+      font-size: 1.5rem; }
+    .menu-item-button {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-top: 1rem; } }

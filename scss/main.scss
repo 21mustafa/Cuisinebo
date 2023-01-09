@@ -59,7 +59,7 @@ html {
   }
 
   &-description {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #bbb;
     text-align: center;
     font-weight: 300;
@@ -199,31 +199,154 @@ html {
 }
 
 .contact {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    &-item{
-        text-decoration: none;
-        font-size: 50px;
-        color: #bbb;
-        transition: color 0.4s;
-        margin: 7rem 2rem;
+  &-item {
+    text-decoration: none;
+    font-size: 50px;
+    color: #bbb;
+    transition: color 0.4s;
+    margin: 7rem 2rem;
 
-        &:hover {
-            color: #d3ab55;
-        }   
+    &:hover {
+      color: #d3ab55;
     }
+  }
 }
 
 .copyright {
-    font-size: 1.8rem;
-    color: #bbb;
-    font-weight: 300;
-    letter-spacing: 0.2rem;
-    text-transform: capitalize;
-    text-align: center;
+  font-size: 1.8rem;
+  color: #bbb;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .footer {
-    margin-bottom: 6rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .logo {
+    &-icon {
+      width: 7rem;
+    }
+
+    &-title {
+      padding-top: 4rem;
+      &-text {
+        font-size: 3rem;
+      }
+    }
+
+    &-description {
+      font-size: 1rem;
+    }
+  }
+
+  .title {
+    margin-top: 10rem;
+
+    &-text {
+      font-size: 6rem;
+      margin-bottom: 2rem;
+    }
+
+    &-subtitle {
+      font-size: 3rem;
+    }
+  }
+
+  .about-us-img-container {
+    display: none;
+  }
+
+  .menu {
+    grid-template-columns: auto auto;
+    &-item {
+      &-title {
+        font-size: 3rem;
+        margin: 0.5rem 0;
+      }
+
+      &-info {
+        font-size: 1.5rem;
+      }
+
+      &-button {
+        padding: 0.5rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .about-us {
+    height: 50vh;
+    &-img-container {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .logo {
+    &-icon {
+      width: 5rem;
+    }
+
+    &-title {
+      padding-top: 4rem;
+      &-text {
+        font-size: 3rem;
+      }
+    }
+
+    &-description {
+      font-size: 1rem;
+    }
+  }
+
+  .title {
+    margin-top: 10rem;
+
+    &-text {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+    }
+
+    &-subtitle {
+      font-size: 2.5rem;
+    }
+  }
+
+  .about-us {
+    height: auto;
+    margin-bottom: 4rem;
+    &-img-container {
+      display: none;
+    }
+  }
+
+  .menu {
+    display: block;
+    &-item {
+      &-title {
+        font-size: 3rem;
+        margin: 0.5rem 0;
+      }
+
+      &-info {
+        font-size: 1.5rem;
+      }
+
+      &-button {
+        padding: 0.5rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+    }
+  }
 }
