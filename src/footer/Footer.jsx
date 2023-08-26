@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer class="footer">
       <div class="logo-title">
-        <img class="logo-icon" src="./assets/logo-white.png" />
+        <img class="logo-icon" src="./logo-white.png" />
         <div class="logo-text">
           <h1 class="logo-title-text">Cuisinebo</h1>
           <div class="logo-description">For the gluttons. Explorer of food</div>

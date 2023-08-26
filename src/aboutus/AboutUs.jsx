@@ -4,7 +4,7 @@ export const AboutUs = () => {
   return (
     <section class="about-us">
       <div class="about-us-img-container">
-        <img class="about-us-img" src="./assets/about-us-img.png" />
+        <img class="about-us-img" src="./about-us-img.png" />
       </div>
 
       <div class="about-us-text">
